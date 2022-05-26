@@ -26,5 +26,9 @@ public class program {
 
         helsinkiRegion.setOn();
         System.out.println("temperature in Helsinki region " + helsinkiRegion.read() + " degrees Celsius");
+        System.out.println("temperature in Helsinki region " + helsinkiRegion.read() + " degrees Celsius");
+        System.out.println("temperature in Helsinki region " + helsinkiRegion.read() + " degrees Celsius");
+
+        System.out.println("readings: " + helsinkiRegion.readings());
     }
 }
